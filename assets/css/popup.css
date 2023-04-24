@@ -1,0 +1,66 @@
+.popup-open{
+    overflow: hidden;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 23456487;
+    font-family: var(--bs-font-sans-serif);
+  }
+  #ad_pop.popup {
+      background-color: transparent;
+    }
+    #ad_pop.popup .popup-box{
+        border: 1px solid #252525;
+    }
+  .popup .popup-close:not(.close-text) {
+    width: 25px;
+    height: 25px;
+    background: url(../img/btn/pop_close_btn.png) no-repeat center/cover;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+  }
+  .popup .popup-header {
+    padding-top: 50px;
+  }
+  .popup .popup-title {
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .popup .popup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius:20px;
+    padding: 30px;
+    max-width:540px;
+  }
+  .popup .popup-box .popup-body {
+    /* max-height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%; */
+  }
+  .popup .popup-box .popup-footer {
+    margin-top: 50px;
+  }
+  .popup .popup-box .popup-footer .btn {
+    font-size: 20px;
+    font-weight: 700;
+   
+  }
+
+  .popup .popup-header {
+    margin-top: 50px;
+  }
+ 

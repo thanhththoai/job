@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="../assets/vendor/jquery.fullPage.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../assets/vendor/swiper.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="../assets/vendor/aos.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="../assets/vendor/aos.js"></script>
+    <script src="../assets/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../assets/vendor/jquery.fullPage.js"></script>
+    <script src="../assets/vendor/swiper.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <title>송도 하우징 페어</title>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <!-- include/head -->
+      <!-- include/header -->
+      <header id="header">
+        <div class="inner flex_b_c">
+          <h1 class="logo">
+            <a href="../main/"></a>
+          </h1>
+          <nav class="gnb">
+            <ul class="gnb_list flex">
+              <li><a href="/overview/">사업개요</a></li>
+              <li><a href="/themeHall/">테마관소개</a></li>
+              <li><a href="/IntegrationStatus/">통합현황</a></li>
+              <li><a href="/dataApplication/">자료신청</a></li>
+              <li><a href="/notice/">공지사항</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="ham_btn border-none"></button>
+        </div>
+      </header>
+      <div class="all_menu_gnb_wrap">
+        <ul class="all_menu_gnb">
+          <li>
+            <a href="/overview/" class="nav_ttl">사업개요</a>
+            <div class="depth02_list">
+              <a href="/overview/">개발배경</a>
+              <a href="/overview/#sect02">사업개요</a>
+              <a href="/overview/#sect03">추진일정</a>
+              <a href="/overview/#sect04">참가지원</a>
+              <a href="/overview/#sect05">참가절차</a>
+            </div>
+          </li>
+          <li>
+            <a href="/themeHall/" class="nav_ttl">테마관소개</a>
+            <div class="depth02_list">
+              <a href="/themeHall/">전시관</a>
+              <a href="/themeHall/office.html">오피스</a>
+              <a href="/themeHall/efficiency.html">오피스텔</a>
+              <a href="/themeHall/neighbourhood_living_facility.html"
+                >근린시설</a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="/IntegrationStatus/" class="nav_ttl">통합현황</a>
+            <div class="depth02_list">
+              <a href="/IntegrationStatus/">차트</a>
+              <a href="/IntegrationStatus/list.html">목록</a>
+            </div>
+          </li>
+          <li>
+            <a href="/dataApplication/" class="nav_ttl">자료신청</a>
+            <div class="depth02_list">
+              <a href="/dataApplication/">자료신청</a>
+            </div>
+          </li>
+          <li>
+            <a href="/notice/" class="nav_ttl">공지사항</a>
+            <div class="depth02_list">
+              <a href="/notice/">공지사항</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- header -->
+      <!-- ////////////////////////////////////////////////////////// -->
+      <script src="./themeHall.js"></script>
+      <div id="container" class="sub form_container">
+        <div class="inner">
+          <div class="step_view_wrap flex_b_c">
+            <a href="#!" class="active"
+              ><span class="num">1</span> <span>카테고리</span></a
+            >
+            <a href="#!" class="active"
+              ><span class="num">2</span> <span>상세정보</span></a
+            >
+            <a href="#!"><span class="num">3</span> <span>완료</span></a>
+          </div>
+          <section class="detail_write_sect">
+            <div class="sect-ttl-box">
+              <h3>상세정보 입력</h3>
+            </div>
+            <form class="form-write">
+              <div class="input-group">
+                <div class="input-wrap radio-input-wrap">
+                  <label for="">업종*</label>
+                  <div class="input-row">
+                    <div
+                      class="flex_b_c col_3"
+                      style="--mg-t: 30px; --mg-x: 10px"
+                    >
+                      <div class="radiobox">
+                        <input
+                          type="radio"
+                          name="business"
+                          id="business_01"
+                          checked
+                        />
+                        <label for="business_01"> 제조 </label>
+                      </div>
+                      <div class="radiobox">
+                        <input type="radio" name="business" id="business_02" />
+                        <label for="business_02"> 도매 </label>
+                      </div>
+                      <div class="radiobox">
+                        <input type="radio" name="business" id="business_03" />
+                        <label for="business_03"> 소매 </label>
+                      </div>
+                      <div class="radiobox">
+                        <input type="radio" name="business" id="business_04" />
+                        <label for="business_04"> 수입/유통 </label>
+                      </div>
+                      <div class="radiobox">
+                        <input type="radio" name="business" id="business_05" />
+                        <label for="business_05"> 건설 </label>
+                      </div>
+                      <div class="radiobox">
+                        <input type="radio" name="business" id="business_06" />
+                        <label for="business_06"> 기타 </label>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- input-row -->
+                </div>
+                <!-- input-wrap -->
+                <div class="input-wrap">
+                  <input type="text" class="bs-input" />
+                </div>
+                <div class="input-wrap">
+                  <label>회사명</label>
+                  <input type="text" class="bs-input" />
+                </div>
+                <div class="input-wrap cling-btn-wrap">
+                  <label>주소*</label>
+                  <div class="input-row">
+                    <div class="flex">
+                        <input type="text" class="bs-input w-50" /><button
+                          type="button"
+                          class="btn font-bold px-1 cling-btn w-auto"
+                        >
+                          검색
+                        </button>
+                    </div>
+                    <input type="text" class="bs-input" />
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <label>담당자명*</label>
+                  <div class="input-row">
+                    <input type="text" class="bs-input" />
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <label>이메일*</label>
+                  <div class="input_row email_row flex_b_c">
+                    <input type="text" class="bs-input" />
+                    <span>@</span>
+                    <input type="text" class="bs-input" />
+                    <select class="bs-select">
+                      <option value="0">선택</option>
+                      <option value="naver.com">naver.com</option>
+                      <option value="gmail.com">gmail.com</option>
+                      <option value="hanmail.net">hanmail.net</option>
+                      <option value="daum.net">daum.net</option>
+                      <option value="korea.com">korea.com</option>
+                      <option value="nate.com">nate.com</option>
+                      <option value="yahoo.com">yahoo.com</option>
+                      <option value="direct">직접입력</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <label>담당자 휴대폰*</label>
+                  <div class="input-row">
+                    <div class="flex">
+                        <input
+                          type="text"
+                          class="bs-input"
+                          placeholder="‘ - ’ 없이 번호만 입력해주세요"
+                        />
+                        <button type="button" class="btn font-bold cling-btn">
+                          인증번호 발송
+                        </button>
+                    </div>
+                    <div class="flex">
+                        <input
+                          type="text"
+                          class="bs-input"
+                          placeholder="인증번호를 입력해주세요"
+                        />
+                        <button type="button" class="btn font-bold cling-btn">
+                          확인
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-wrap ">
+                  <label>사업자등록증*</label>
+                  <div class="input-row">
+                    <div class="file_wrap flex">
+                      <input
+                        type="text"
+                        class="fileName bs-input"
+                        readonly="readonly"
+                        placeholder="pdf, jpg, png 파일 등록가능"
+                      />
+                      <input
+                        type="file"
+                        name="ufile1"
+                        id="uploadBtn1"
+                        class="uploadBtn"
+                        style="display: none"
+                      />
+                      <label
+                        for="uploadBtn1"
+                        class="btn font-bold cling-btn up_btn"
+                        >파일첨부</label
+                      >
+                    </div>
+                  </div>
+                  <div class="input-row" id="file_upload_preview">
+                    <div class="view_box flex_b_c">
+                      <p>유월커뮤니케이션사업자등록증</p>
+                      <button type="button" class="del_btn"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-wrap">
+                  <label>개인정보수집 및 마케팅 이용 동의 *</label>
+                  <div class="input-row">
+                    <textarea name="" id="" class="bs-input"></textarea>
+                    <div class="bs_chk_box">
+                        <input type="checkbox" id="agree_01">
+                        <label for="agree_01">개인정보수집 및 마케팅 이용에 동의합니다.</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- input-group -->
+              <div class="btn-wrap flex_c_c">
+                <button type="button" class="btn btn-round-point" onclick="location.href='./completion_list.html'">완료</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+      <!-- container end////////////////////////////////////////////////////////// -->
+      <!-- include/quick -->
+      <div class="quick_wrap">
+        <ul>
+          <li class="quick_01"><a href="#!">온라인 하우징페어</a></li>
+          <li class="quick_02"><a href="#!">관심등록하고 커피받기</a></li>
+          <li class="quick_03"><a href="#!">건축자재 자료받기</a></li>
+        </ul>
+        <div>
+          <a href="#!" class="ani_box">
+            <div class="ani_circle rotate_animation"></div>
+            <div class="ani_cup animate__animated animate__bounce">
+              <img src="../assets/img/common/ani_cup.png" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- include/quick -->
+
+      <!-- include/footer-->
+      <footer id="footer">
+        <div class="inner flex_b_c">
+          <div class="left flex">
+            <h1 class="logo">
+              <a href="#!"
+                ><img
+                  src="../assets/img/logo_f.png"
+                  alt="HousingFair footer logo"
+              /></a>
+            </h1>
+            <div class="foot_info">
+              <p>
+                KBMA 대한건축자재협회 / 사업자 등록번호 : 215-82-62962<br />
+                서울시 강동구 양재대로 1547 대한건축자재협회 대표전화 :
+                1688-3398 팩스번호 : 02-6305-3398<br />
+                개인정보관리 책임자 : 김성국 (info@kbm.or.kr)
+              </p>
+              <p class="copy">
+                Copyright ⓒ Since 2023 KBMA Co., Ltd. All rights reserved.
+              </p>
+            </div>
+          </div>
+          <div class="family_site_wrap">
+            <button type="button" class="btn btn-outline-dark rounded-none">
+              패밀리 사이트 <span>+</span>
+            </button>
+            <div class="family_site">
+              <a href="#!">housing.com</a>
+              <a href="#!">housing.com</a>
+              <a href="#!">housing.com</a>
+              <a href="#!">housing.com</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- wrap -->
+  </body>
+</html>
+<!-- include/footer-->

@@ -1,0 +1,27 @@
+#fp-nav ul li a span, .fp-slidesNav ul li a span,
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span,
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    margin: 0;
+    width: 6px;
+    height: 6px;
+   
+}
+#fp-nav ul li+li{
+    margin-top: 30px;
+}
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span
+{
+    background:var(--bs-point) !important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span,
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{
+    background: #dfdfdf;
+}
+
+.darkBg #fp-nav ul li a span,.darkBg .fp-slidesNav ul li a span,
+.darkBg #fp-nav ul li:hover a span,.darkBg .fp-slidesNav ul li:hover a span{
+    background: #fff;
+}
+#fp-nav ul li:last-of-type{
+    display: none;
+}

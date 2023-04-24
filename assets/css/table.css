@@ -1,0 +1,134 @@
+.bs-table {
+    width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  border-top: 2px solid #252525;
+  font-size: 18px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.address_td {
+  text-align: left;
+}
+.bs-table thead {
+  background-color: #fafafa;
+}
+.bs-table tr + tr {
+  border-top: 1px solid #dbdbdb;
+}
+.bs-table th {
+  height: 62px;
+  font-size: 20px;
+  padding: 15px;
+  color: #454545;
+  font-weight: 500;
+}
+
+.bs-table th + th {
+  position: relative;
+}
+.bs-table th + th::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.5em;
+  width: 1px;
+  height: 1em;
+  background-color: #dbdbdb;
+}
+
+.bs-table td {
+  padding: 12px 15px;
+  color: #454545;
+}
+.bs-table thead.thead-green {
+  background-color: #edf8ee;
+}
+.bs-table.num-table td {
+  font-family: var(--bs-font-lato);
+  font-weight: 500;
+}
+.bs-table.border-table th,
+.bs-table.border-table td {
+  border: 1px solid #dbdbdb;
+}
+
+
+/* 서브_페이지버튼 */
+.page-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.page-btn button+button{
+    margin-left: 10px;
+}
+.page-btn button {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #fff url(../img/btn/pager_prev.png) no-repeat center;
+}
+.page-btn button.prev {
+    margin-right: 20px;
+
+}
+.page-btn button.next {
+    background-image: url(../img/btn/pager_next.png);
+    margin-left: 20px;
+
+}
+.page-btn button.first {
+    background-image: url(../img/btn/pager_first.png);
+
+}
+.page-btn button.last {
+    background-image: url(../img/btn/pager_last.png);
+
+}
+.page-btn ul {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.page-btn ul li {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.page-btn ul li a {
+    display: block;
+}
+
+.page-btn ul li.active{
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+    color: #fff;
+}
+
+
+.table_top {
+    margin-bottom: 40px;
+    line-height: 1;
+}
+.table_top p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.table_top p.ttl{
+    margin-right: 40px;
+}
+.table_top p +span{
+    display: inline-block;
+
+    margin-left: 10px;}
